@@ -1,0 +1,16 @@
+.header-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  padding: 0 25px;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  color: #747474;
+  box-shadow: 0 0 8px 4px rgba(0,0,0,.045);
+  z-index: 200;
+  &__title {
+    font-size: 24px;
+    text-align: center;
+  }
+}

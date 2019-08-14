@@ -1,0 +1,12 @@
+<app-header-list></app-header-list>
+<div class="logo-list">
+  <canvas
+    class="logo-list__canvas"
+    *ngFor="let log of arrImgS; index as logoId"
+    #canvasEl
+    width="300"
+    height="300"
+    [routerLink]="['/logos', logoId]"
+  ></canvas>
+</div>
+<ngx-spinner bdColor="rgba(0,11,0,0.7)"></ngx-spinner>

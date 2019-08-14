@@ -1,0 +1,14 @@
+.edit-img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &__canvas {
+    &.active {
+      border: 1px solid #747474;
+    }
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+}

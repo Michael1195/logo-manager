@@ -1,0 +1,22 @@
+<div class="header-details">
+  <div>
+    <button
+      [routerLink]="['/logos']"
+      class="header-details__button-cancel"
+      type="button"
+      ><fa-icon class="header-details__button-cancel-icon" icon="chevron-down"></fa-icon
+      >Назад</button
+    >
+  </div>
+  <div><h1 class="header-details__title">Редактор логотипов</h1></div>
+  <div class="header-details__button-save-wrap">
+    <button
+      [routerLink]="['/logos']"
+      class="header-details__button-save"
+      type="button"
+      (click)="buttonSaveChange.emit()"
+    >
+      Сохранить
+    </button>
+  </div>
+</div>

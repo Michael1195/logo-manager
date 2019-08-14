@@ -1,0 +1,27 @@
+<div class="logo-edit">
+  <app-switch-editor (switchEditorChange)="switchEditorChange($event)">
+  </app-switch-editor>
+
+  <div class="logo-edit__block">
+    <app-edit-text
+      *ngIf="id === 'text'"
+      [logoText]="logoText"
+      (logoTextChange)="logoTextChange.emit($event)"
+    >
+    </app-edit-text>
+
+    <app-edit-font
+      *ngIf="id === 'font'"
+      [objImgFont]="objImgFont"
+      (logoFontChange)="logoFontChange.emit($event)"
+    >
+    </app-edit-font>
+
+    <app-edit-img
+      *ngIf="id === 'icon'"
+      [idImgS]="idImgS"
+      (logoImgChange)="logoImgChange.emit($event)"
+    >
+    </app-edit-img>
+  </div>
+</div>

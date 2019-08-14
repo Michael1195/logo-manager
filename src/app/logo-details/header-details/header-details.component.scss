@@ -1,0 +1,49 @@
+.header-details {
+  display: flex;
+  align-items: center;
+  height: 75px;
+  padding: 0 25px;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  color: #747474;
+  box-shadow: 0 0 8px 4px rgba(0,0,0,.045);
+  z-index: 200;
+  & > div {
+    width: 33.33333333%;
+  }
+  &__title {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  &__button {
+    &-save {
+      width: 220px;
+      height: 40px;
+      background-color: #63c383;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: 0;
+      border-radius: 5px;
+      color: #fff;
+      &-wrap {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+    &-cancel {
+      padding: 0;
+      background-color: transparent;
+      font-size: 15px;
+      border: 0;
+      cursor: pointer;
+      color: #747474;
+      &-icon {
+        display: inline-flex;
+        margin-right: 5px;
+        font-size: 12px;
+        transform: rotate(90deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.fonts {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #747474;
+  &__title {
+    display: block;
+    margin: 0 0 7px;
+    font-size: 10px;
+  }
+  &__current {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 33px; 
+    width: 205px;
+    padding-left: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #000;
+    &-icon {
+      &.active {
+        transform: rotate(180deg);
+      }
+      position: absolute;
+      right: 8px;
+      line-height: 1em;
+      font-size: 12px;
+      color: #c2c2c2;
+    }
+  }
+  &__block {
+    width: 205px;
+    padding-right: 5px;
+    background-color: #fff;
+  }
+  &__list {
+    &.active {
+      display: block;
+    }
+    display: none;
+    height: 245px;
+    margin: 0;
+    padding-left: 15px;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    height: 35px; 
+    cursor: pointer;
+    color: #000;
+  }
+}

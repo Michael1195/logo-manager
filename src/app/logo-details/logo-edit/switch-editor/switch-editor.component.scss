@@ -1,0 +1,29 @@
+.switch-editor {
+  width: 67px;
+  height: 100%;
+  text-align: center;
+  background-color: #f0f0f0;
+  &__item {
+    &.active {
+      background-color: #f7f7f7;
+      color: #747474;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 71px;
+    cursor: pointer;
+    color: #ccc;
+    &:hover {
+      color: #747474;
+    }
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  &__icon {
+    font-size: 32px;
+  }
+}

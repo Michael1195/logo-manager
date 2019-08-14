@@ -1,0 +1,9 @@
+.logo-edit {
+  display: flex;
+  height: 500px;
+  &__block {
+    width: 230px;
+    padding: 15px 15px 0 15px;
+    background-color: #f7f7f7;
+  }
+}

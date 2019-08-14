@@ -1,0 +1,11 @@
+<div class="edit-img">
+  <canvas
+    class="edit-img__canvas"
+    #imgEl
+    *ngFor="let icon of arrImgS; index as iconId"
+    [id]="iconId"
+    (click)="handlerIcon($event.target.id)"
+    width="55"
+    height="55"
+  ></canvas>
+</div>

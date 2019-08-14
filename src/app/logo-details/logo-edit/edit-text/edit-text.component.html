@@ -1,0 +1,10 @@
+<div class="edit-text">
+  <span class="edit-text__title">Слоган</span>
+  <input
+    class="edit-text__input"
+    type="text"
+    [value]="logoText"
+    (input)="logoTextChange.emit($event.target.value)"
+    maxlength="55"
+  />
+</div>

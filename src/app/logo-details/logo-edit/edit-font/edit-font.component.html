@@ -1,0 +1,26 @@
+<div class="fonts">
+  <span class="fonts__title">Шрифты</span>
+  <span
+    class="fonts__current"
+    #currentEl
+    [ngStyle]="{ 'font-family': objImgFont.altImg }"
+    (click)="handlerFonts($event.target)"
+    ><img [src]="objImgFont.srcImg" [alt]="objImgFont.altImg"/><fa-icon
+      class="fonts__current-icon"
+      icon="chevron-down"
+    ></fa-icon
+  ></span>
+  <div class="fonts__block">
+    <ul class="fonts__list" #listEl>
+      <li
+        class="fonts__item"
+        *ngFor="let font of listFonts | async; index as fontId"
+        [id]="fontId"
+        [ngStyle]="{ 'font-family': font.family }"
+        (click)="handlerFonts($event.target)"
+      >
+        <img [src]="font.img" [alt]="font.family" />
+      </li>
+    </ul>
+  </div>
+</div>

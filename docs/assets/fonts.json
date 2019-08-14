@@ -1,0 +1,62 @@
+[
+  { 
+    "family": "Lato",
+    "img": "./assets/font-image/lato.png"
+  },
+  {
+    "family": "Lacquer",
+    "link": "https://fonts.googleapis.com/css?family=Lacquer&display=swap",
+    "img": "./assets/font-image/lacquer.png"
+  },
+  { 
+    "family": "ABeeZee",
+    "link": "https://fonts.googleapis.com/css?family=ABeeZee&display=swap",
+    "img": "./assets/font-image/abeezee.png"
+  },
+  { 
+    "family": "Skranji",
+    "link": "https://fonts.googleapis.com/css?family=Skranji&display=swap",
+    "img": "./assets/font-image/skranji.png"
+  },
+  { 
+    "family": "ZCOOL KuaiLe",
+    "link": "https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap",
+    "img": "./assets/font-image/zcool-kuaile.png"
+  },
+  { 
+    "family": "Saira Stencil One",
+    "link": "https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap",
+    "img": "./assets/font-image/saira-stencil-one.png"
+  },
+  { 
+    "family": "Grenze",
+    "link": "https://fonts.googleapis.com/css?family=Grenze&display=swap",
+    "img": "./assets/font-image/grenze.png"
+  },
+  { 
+    "family": "Raleway",
+    "link": "https://fonts.googleapis.com/css?family=Raleway&display=swap",
+    "img": "./assets/font-image/raleway.png"
+  },
+  { 
+    "family": "Beth Ellen",
+    "link": "https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap",
+    "img": "./assets/font-image/beth-ellen.png"
+  },
+  { 
+    "family": "Red Hat Display",
+    "link": "https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap",
+    "img": "./assets/font-image/red-hat-display.png"
+  },
+  { 
+    "family": "Inconsolata",
+    "link": "https://fonts.googleapis.com/css?family=Inconsolata&display=swap",
+    "img": "./assets/font-image/inconsolata.png"
+  },
+  { 
+    "family": "Bitter",
+    "link": "https://fonts.googleapis.com/css?family=Bitter&display=swap",
+    "img": "./assets/font-image/bitter.png"
+  }
+]
+  

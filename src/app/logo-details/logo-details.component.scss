@@ -1,0 +1,14 @@
+.logo-details {
+  &__block {
+    display: flex;
+  }
+  &__canvas {
+    position: absolute;
+    z-index: -1;
+    &-wrap {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+<div class="switch-editor">
+  <div
+    id="text"
+    #switchEl
+    class="switch-editor__item active"
+    (click)="switchEditor($event)"
+  >
+    <fa-icon class="switch-editor__icon" icon="spell-check"></fa-icon>
+    <span class="switch-editor__text">Текст</span>
+  </div>
+  <div
+    id="font"
+    #switchEl
+    class="switch-editor__item"
+    (click)="switchEditor($event)"
+  >
+    <fa-icon class="switch-editor__icon" icon="font"></fa-icon>
+    <span class="switch-editor__text">Шрифты</span>
+  </div>
+  <div
+    id="icon"
+    #switchEl
+    class="switch-editor__item"
+    (click)="switchEditor($event)"
+  >
+    <fa-icon class="switch-editor__icon" icon="atom"></fa-icon>
+    <span class="switch-editor__text">Иконка</span>
+  </div>
+</div>
