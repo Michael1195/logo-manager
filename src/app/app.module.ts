@@ -34,9 +34,9 @@ import { HeaderDetailsComponent } from "./logo-details/header-details/header-det
     NgxSpinnerModule,
     FontAwesomeModule,
     RouterModule.forRoot([
-      { path: "logos", component: LogoListComponent },
+      { path: "", component: LogoListComponent },
       {
-        path: "logos/:logoId",
+        path: ":logoId",
         component: LogoDetailsComponent,
         canDeactivate: [ExitDetailsGuard]
       }

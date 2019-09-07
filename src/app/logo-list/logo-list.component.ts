@@ -106,7 +106,7 @@ export class LogoListComponent implements AfterViewInit {
     let idImg = this.arrObjLogo[idx].img.charAt(srcImgLength - 5);
 
     let img = new Image();
-    img.src = "./logos/assets/logo-image/small/s" + idImg + ".png";
+    img.src = "./assets/logo-image/small/s" + idImg + ".png";
     img.onload = function() {
       ctx.drawImage(img, 100, 60, 100, 100);
     };
